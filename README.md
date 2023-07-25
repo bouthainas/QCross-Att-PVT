@@ -1,7 +1,7 @@
-# ViTReg-IP Lung Analysis Architecture
-![ ](https://github.com/bouthainas/ViTReg-IP/blob/main/ViTReg-IP.jpg)
-## What is ViTReg-IP?
-ViTReg-IP combines feature extraction models and is based on a vision transformer (ViT) that acts as a backbone for a regression (Reg) head targeting infection prediction (IP) of lungs from chest radiographs. This approach allows precise and automatic quantification of the severity of lung infection. Experimental results have shown that the proposed model has the ability and efficiency to provide peak performance in quantifying severity with high generalizability. The work is under review. The source codes and results will be made publicly available after integration of related comments. This architecture is developed in the context of a project ViTAL which aims to develop Vision-based Techniques for Analyzing lungs and to continously propose solutions through this open source initiative.
+# MViTReg-IP Lung Analysis Architecture
+![ ](https://github.com/bouthainas/ViTReg-IP/blob/main/MViTReg-IP.jpg)
+## What is MViTReg-IP?
+MVitReg-IP is a multi-task deep learning algorithm that can quickly and effectively determine the severity of lung infection in patients with COVID-19 or similar lung diseases. This model is able to predict scores associated with different disease courses and the severity of lung infections. It is based on a dual transformer encoder, followed by a feature fusion module feeding two MLP regression heads to quantify CXR images with two scores simultaneously. One score is based on the spread of infection in the lungs, while the other measures how opaque the infected sites are. The work is under review. The source codes and results will be publicly available after integrating related comments.
 
 # Team
 ## Core Contributors
