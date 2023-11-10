@@ -10,6 +10,7 @@ MVitReg-IP is a multi-task deep learning algorithm that can quickly and effectiv
 * Prof. Dr. Karim Hammoudi, IEEE member, Group Imagery, Dept. of Computer Science, IRIMAS, Université de Haute-Alsace, France, karim.hammoudi@uha.fr
 * Medical Doctor, PhD, Hamid Merdji, French National Institute of Health and Medical Research (INSERM), Regenerative Nanomedicine (RNM), Biomedicine Research Center (CRBS), Federation of Translational Medicine, and Dept. of Intensive Medicine-Resuscitation, Hospital of Strasbourg, France, merdgi.hamid@gmail.com
 * Dr. Vinh Truong Hoang, Dept. of Computer Science, HCMC Open University, Ho Chi Minh City, Vietnam, vinth@ou.edu.vn
+* Iyed Dhahri, Final Year Engineering Student, ENSI, Tunisia
 
 ## Collaborators
 * Prof. Dr. Halim Benhabiles, Group BIO-MEMS, Dept. of Artificial Intelligence, JUNIA, CNRS, IEMN, University of Lille, halim.benhabiles@yncrea.fr
