@@ -1,16 +1,14 @@
-# MViTReg-IP Lung Analysis Architecture
-![ ](https://github.com/bouthainas/MViTReg-IP/blob/main/MViTReg-IP.png)
-## What is MViTReg-IP?
-MVitReg-IP is a multi-task deep learning algorithm that can quickly and effectively determine the severity of lung infection in patients with COVID-19 or similar lung diseases. This model is able to predict scores associated with different disease courses and the severity of lung infections. It is based on a dual transformer encoder, followed by a feature fusion module feeding two MLP regression heads to quantify CXR images with two scores simultaneously. One score is based on the spread of infection in the lungs, while the other measures how opaque the infected sites are. The work is under review. The source codes and results will be publicly available after integrating related comments.
+# PViTGAtt-IP Lung Analysis Architecture
+![ ](https://github.com/bouthainas/PViTGAtt-IP/blob/main/PViTGAtt-IP.png)
+## What is PViTGAtt-IP?
+Parallel ViT with Gated Attention for Infection Prediction (PViTGAtt-IP) is an innovative deep-learning model developed for accurate infection prediction from medical imaging data. Leveraging the power of Vision Transformers (ViT) and gated attention mechanisms, PViTGAtt-IP offers a robust solution for detecting infections such as COVID-19 from chest X-rays or CT scans. This model is designed to efficiently analyze large-scale medical imaging datasets by harnessing parallel processing capabilities and incorporating attention mechanisms to focus on relevant features for infection prediction. PViTGAtt-IP represents a significant advancement in AI-driven healthcare technology, with potential applications in early diagnosis, patient management, and treatment planning for infectious diseases.
 
 # Team
 ## Core Contributors
-* Biomedical Engineer, PhD Student, Bouthaina Slika, University of the Basque Country, Spain, bslika001@ikasle.ehu.eus
+* Biomedical Engineer, PhD Student, Bouthaina Slika, University of the Basque Country, Spain & Ho Chi Minh Open University, Vietnam bslika001@ikasle.ehu.eus
 * Prof. Dr. Fadi Dornaika, IEEE member, Dept. of Artificial Intelligence, University of the Basque Country & IKERBAQUE foundation, Spain fadi.dornaika@ehu.es
 * Prof. Dr. Karim Hammoudi, IEEE member, Group Imagery, Dept. of Computer Science, IRIMAS, Université de Haute-Alsace, France, karim.hammoudi@uha.fr
-* Medical Doctor, PhD, Hamid Merdji, French National Institute of Health and Medical Research (INSERM), Regenerative Nanomedicine (RNM), Biomedicine Research Center (CRBS), Federation of Translational Medicine, and Dept. of Intensive Medicine-Resuscitation, Hospital of Strasbourg, France, merdgi.hamid@gmail.com
-* Dr. Vinh Truong Hoang, Dept. of Computer Science, HCMC Open University, Ho Chi Minh City, Vietnam, vinth@ou.edu.vn
-* Iyed Dhahri, Final Year Engineering Student, ENSI, Tunisia
+* Dr. Fares Bougourzi,
 
 ## Collaborators
 * Prof. Dr. Halim Benhabiles, Group BIO-MEMS, Dept. of Artificial Intelligence, JUNIA, CNRS, IEMN, University of Lille, halim.benhabiles@yncrea.fr
