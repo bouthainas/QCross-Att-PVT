@@ -1,7 +1,7 @@
-# PViTGAtt-IP Lung Analysis Architecture
+# QCross-Att-PVT Lung Analysis Architecture
 ![ ](https://github.com/bouthainas/PViTGAtt-IP/blob/main/PViTGAtt-IP.png)
-## What is PViTGAtt-IP?
-Parallel ViT with Gated Attention for Infection Prediction (PViTGAtt-IP) is an innovative deep-learning model developed for accurate infection prediction from medical imaging data. Leveraging the power of Vision Transformers (ViT) and gated attention mechanisms, PViTGAtt-IP offers a robust solution for detecting infections such as COVID-19 from chest X-rays or CT scans. This model is designed to efficiently analyze large-scale medical imaging datasets by harnessing parallel processing capabilities and incorporating attention mechanisms to focus on relevant features for infection prediction. PViTGAtt-IP represents a significant advancement in AI-driven healthcare technology, with potential applications in early diagnosis, patient management, and treatment planning for infectious diseases.
+## What is QCross-Att-PVT?
+
 
 # Team
 ## Core Contributors
