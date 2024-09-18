@@ -1,5 +1,5 @@
 # QCross-Att-PVT Lung Analysis Architecture
-![ ](https://github.com/bouthainas/PViTGAtt-IP/blob/main/PViTGAtt-IP.png)
+![ ](https://github.com/bouthainas/QCross-Att-PVT/blob/main/PVT-ViT%20diagram.png)
 ## What is QCross-Att-PVT?
 
 
