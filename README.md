@@ -1,7 +1,32 @@
 # QCross-Att-PVT Lung Analysis Architecture
 ![ ](https://github.com/bouthainas/QCross-Att-PVT/blob/main/PVT-ViT%20diagram.png)
 ## What is QCross-Att-PVT?
-QCross-Att-PVT is a novel transformer-based architecture tailored for predicting the severity of lung infections from CT and Chest X-ray images. The model utilizes Pyramid Vision Transformers (PVTs) as parallel encoders, designed to capture multi-scale features from different image regions. A key innovation is the cross-gated attention mechanism, which facilitates the interaction between different regions of the image, allowing the model to focus on the most relevant areas for severity assessment. The outputs from the encoders are further processed by a feature aggregator, based on Vision Transformer (ViT) principles, to refine and integrate the extracted information into a single scalar severity score. Validated on the RALO CXR and Per-COVID-19 CT datasets, QCross-Att-PVT demonstrates superior performance offering a reliable and efficient solution for automated lung infection severity quantification. The work is currently under review, the code will become publicly available once the review process is complete.
+QCross-Att-PVT is a novel transformer-based architecture tailored for predicting the severity of lung infections from CT and Chest X-ray images. The model utilizes Pyramid Vision Transformers (PVTs) as parallel encoders, designed to capture multi-scale features from different image regions. A key innovation is the cross-gated attention mechanism, which facilitates the interaction between different regions of the image, allowing the model to focus on the most relevant areas for severity assessment. The outputs from the encoders are further processed by a feature aggregator, based on Vision Transformer (ViT) principles, to refine and integrate the extracted information into a single scalar severity score. Validated on the RALO CXR and Per-COVID-19 CT datasets, QCross-Att-PVT demonstrates superior performance, offering a reliable and efficient solution for automated lung infection severity quantification. The work is currently under review, the code will become publicly available once the review process is complete.
+
+## Implementation and Training Parameters
+
+| Parameter | Value |
+|-----------|-------|
+| Input image size | 448 × 448 |
+| Number of image regions | 4 |
+| Encoder backbone | PVT |
+| Feature aggregation | ViT |
+| Cross-region interaction | Gated Cross-Attention |
+| Data augmentation | Conditional Online TransMix |
+| Loss function | Weighted MAE Loss |
+| Optimizer | AdamW |
+| Learning rate | 1e-5 |
+| β₁ | 0.5 |
+| β₂ | 0.99 |
+| Learning rate scheduler | CosineAnnealingWarmRestarts |
+| Initial restart period (T₀) | Number of iterations per epoch |
+| Restart multiplier (Tmult) | 2 |
+| Batch size | 16 |
+| Training epochs | 50 |
+| Model parameters | 28M |
+| GPU | NVIDIA Titan X |
+| CUDA version | 12.0 |
+| Driver version | 525.125.06 |
 
 # Team
 ## Core Contributors
